@@ -40,49 +40,85 @@ public class Assignment2ndTerm {
         System.out.println("    (CCPRGG21, CTHASOPL)");
         System.out.println("TOTAL AMOUNT                                         P 27,490.00\n");
     }
-
+   /**
+     * Displays the student number, where in the student must input his/her student number
+     * @param gstudentNum inputs the student number
+     * @param lol inputs the student number
+     * @return outputs the student number
+     */
     public static String getStudentNum(String[] gstudentNum, int lol) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your Student ID Year: ");
         gstudentNum[lol] = input.nextLine();
         return gstudentNum[lol];
     }
-
+ /**
+     * Displays the name of the student
+     * @param gname inputs the name of the student
+     * @param lol inputs his/her name
+     * @return the output of the student name
+     */
     public static String getStName(String[] gname, int lol) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your Name: ");
         gname[lol] = input.nextLine();
         return gname[lol];
     }
-
+   /**
+     * Displays the citizenship of the student
+     * @param gcitizen inputs the citizenship of the student
+     * @param lol inputs the citizenship
+     * @return output of the citizenship
+     */
     public static String getCitizenship(String[] gcitizen, int lol) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your Citizenship: ");
         gcitizen[lol] = input.nextLine();
         return gcitizen[lol];
     }
-
+    /**
+     * Displays the address of the student
+     * @param gAddress inputs the address of the student
+     * @param lol inputs the address
+     * @return output of the address
+     */
     public static String getAddress(String[] gAddress, int lol) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your Address: ");
         gAddress[lol] = input.nextLine();
         return gAddress[lol];
     }
-
+/**
+     * Displays the course of the student
+     * @param getCourse inputs the course of the student
+     * @param lol inputs the course
+     * @return output of the course
+     */
     public static String getCourse(String[] gCourse, int lol) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your Course: ");
         gCourse[lol] = input.nextLine();
         return gCourse[lol];
     }
-
+ /**
+     * Displays the term of the student
+     * @param gcitizen inputs the term of the student
+     * @param lol inputs the term
+     * @return output of the term
+     */
     public static String getTerm(String[] gTerm, int lol) {
         Scanner input = new Scanner(System.in);
         System.out.print("What term are you applying for? ");
         gTerm[lol] = input.nextLine();
         return gTerm[lol];
     }
-
+   /**
+     * Displays the gender of the student
+     * @param getGender inputs the gender of the student
+     * @param lol inputs the gender
+     * @return output of the gender
+     */
+    
     public static String getGender(String[] gGender, int lol) {
         Scanner input = new Scanner(System.in);
         System.out.println("What is your gender?");
@@ -126,6 +162,12 @@ public class Assignment2ndTerm {
         }
         return scho[lol] = totalTuition;
     }
+  /**
+     * Displays the payment of the student
+     * @param getPayment inputs the payment of the student
+     * @param lol inputs the payment
+     * @return output of the payment
+     */
 
     public static String getPayment(String[] gpayment, int lol, double[] scho) {
         Scanner input = new Scanner(System.in);
